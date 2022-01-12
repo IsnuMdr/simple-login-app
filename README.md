@@ -46,6 +46,7 @@ MAIL_FROM_NAME="${APP_NAME}"
 
 3. **Instalasi website**
 ```bash
+php artisan key:generate
 php artisan migrate
 ```
 
