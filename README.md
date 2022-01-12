@@ -1,3 +1,67 @@
+# Aplikasi Login Laravel 8 Sederhana Menggunakan Laravel UI
+
+## Fitur
+- Register Akun
+- Login Akun
+- Forgot Password
+- Reset Password
+
+## Screenshoot
+![Screenshot 2022-01-12 121625](https://user-images.githubusercontent.com/20652209/149068277-8b9607f3-8933-4ba1-ab40-8653a80d2b85.jpg)
+![Screenshot 2022-01-12 121644](https://user-images.githubusercontent.com/20652209/149068281-14162ddb-f1f2-43d9-85ee-046e79ca3cbc.jpg)
+![Screenshot 2022-01-12 121712](https://user-images.githubusercontent.com/20652209/149068283-6bafcf34-052c-4056-9e17-6bc6e77817dd.jpg)
+
+
+## 💻 Install
+
+1. **Clone Repository**
+```bash
+git clone https://github.com/IsnuMdr/simple-library-laravel.git
+cd simple-library-laravel
+composer install
+copy .env.example .env
+```
+
+2. **Buka ```.env``` lalu ubah baris berikut sesuai dengan databasemu yang ingin dipakai**
+```
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=db_perpustakaan
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+**Lalu ubah berikut sesuai dengan konfigurasi SMTP kalian**
+```
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=22b08358590e67
+MAIL_PASSWORD=2665e720f3ccb0
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=uas_login@laravel.com
+MAIL_FROM_NAME="${APP_NAME}"
+```
+
+3. **Instalasi website**
+```bash
+php artisan migrate
+```
+
+4. **Jalankan website**
+```command
+php artisan serve
+```
+
+## 🧑 Author
+
+- Facebook : <a href="https://www.facebook.com/isnu.mdr/"> Isnu Munandar</a>
+- LinkedIn : <a href="https://id.linkedin.com/in/muhammad-isnu-munandar-b256961b3"> Muhammad Isnu Munandar</a>
+
+
+<hr>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
